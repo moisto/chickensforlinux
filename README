@@ -1,0 +1,85 @@
+--------------------------------------------------
+----------- FREQUENTLY ASKED QUESTIONS -----------
+--------------------------------------------------
+
+1) What is Level Mode?
+	Answer: Level Mode is where you play increasingly difficult
+   levels. The higher the level number, the faster the chickens run
+   and the more you need to kill. Each level always begins with 60
+   seconds on the clock. The scoring format differs from Classic 
+   Mode, judging your skill via Accuracy. Some colored gems offer 
+   rewards different from the Classic Mode.
+	Red:	+3 seconds
+	Green:	+5 rocket radius
+	Blue:	+1 second
+
+   Accuracy is determined with this far-less-than-perfect equation:
+	accuracy = 70(kills / shots_fired) + 30(timer / 60)
+
+	You will be awarded green floating bonus points if your
+	accuracy exceeds 100%
+
+   Keep in mind you lose an additional second each time you shoot!
+
+   You cannot "win" in Level Mode. There is no last level. That
+   means this game has infinite replay value, because you can
+   NEVER beat it! Hurrah!
+
+
+2) What is Classic Mode?
+
+	Answer: Classic Mode is the type of gameplay of the original
+   chickens game. It does have a few enhancements such as the shotgun
+   and more gem bonuses, but the mindset is the same. You are on a
+   2-minute timer, and you mustn't let any chicken run or fly to the
+   opposite side of your screen. When this happens, you die die DIE. 
+
+   Each time you shoot, you lose an additional second. "Group them 
+   and blow the shit out of them," I used to say.
+
+3) How can I use a different High-Score name?
+
+	Answer: ./chickens -name your_name
+
+
+4) How do I change the configuration file?
+
+	Answer: Just open 'options.cfg' in your favorite text editor. I
+   made comments about each variable, so enjoy.
+
+
+5) The chickens are running wicked fast! Why?
+
+	Answer: It's more exciting.
+
+
+6) Dude, what's with the Tenderizer sound effect?
+
+	Answer: Umm...Three? I'm not sure what you mean.
+
+
+7) How do I use the shotgun?
+
+	Answer: Right-click the mouse.
+
+
+8) You're a total stud. Can I have sex with you?
+
+	Answer: If you're a sexy lady, you may have sex with me.
+
+
+9) So with rockets only the 'X' mouse coordinate matters?
+
+	Answer: Yes. This ain't no bug. This was the best way for me to
+   implement the shotgun. The original Chickens game lets you shoot beneath
+   the ground the same way (but there's no 2nd weapon)...
+
+
+10) What features can I expect from the next version?
+
+	Answer: 
+   A more polished Level Mode.
+   HighScore support for Level Mode
+   Chickens that fly towards you.
+   Maybe a better Tenderizer sound, too.
+

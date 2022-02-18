@@ -1,0 +1,11 @@
+Chickens for Linux! 0.2.4
+
+REQUIREMENTS (Allegro 4.x):
+   Allegro homepage	https://liballeg.org/old.html
+
+To compile, just type:
+	./configure
+	make
+
+To play the game, type:
+	./chickens
