@@ -13,8 +13,8 @@
 	
 	But I didn't see it.
 	
-	- moistrous
-	(blake@kosmokrator.org)
+	- blake
+	(missing@chickensforlinux.com)
 	-----------------------------------------------------------------------------
 */
 
@@ -757,7 +757,7 @@ void show_modechooser() {
 			bigchick_xspeed = (bigchick.x - mouse_x + (mouse_x>bigchick.x?0:0)) / 35;
 			bigchick_yspeed = (bigchick.y - mouse_y + (mouse_y>bigchick.y?0:0)) / 35;
 			
-			// make that big fucking chicken chase the mouse
+			// make that big chicken chase the mouse
 			bigchick.angle = 192 + atan((bigchick.y - mouse_y) / (bigchick.x - mouse_x)) * (128/3.14159);
 			bigchick.angle += mouse_x > bigchick.x ? 128 : 0;
 			
